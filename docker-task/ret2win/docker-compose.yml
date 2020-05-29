@@ -1,0 +1,9 @@
+version: '3'
+services:
+  ret2win:
+    image: taqini/ret2win
+    build: .
+    environment:
+       - FLAG=CTFq{flagtestyourflag}
+    ports: 
+     - "10015:9999"

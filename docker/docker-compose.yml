@@ -1,0 +1,9 @@
+version: '3'
+services:
+  replacethis:
+    image: taqini/replacethis
+    build: .
+    environment:
+       - FLAG=CTFq{flagtestyourflag}
+    ports: 
+     - "10015:9999"

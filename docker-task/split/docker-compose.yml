@@ -1,0 +1,9 @@
+version: '3'
+services:
+  split:
+    image: taqini/split
+    build: .
+    environment:
+       - FLAG=CTFq{flagtestyourflag}
+    ports: 
+     - "10015:9999"

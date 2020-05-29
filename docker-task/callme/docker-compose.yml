@@ -1,0 +1,9 @@
+version: '3'
+services:
+  callme:
+    image: taqini/callme
+    build: .
+    environment:
+       - FLAG=CTFq{callme_via_pop_pop_pop_ret}
+    ports: 
+     - "10000:9999"

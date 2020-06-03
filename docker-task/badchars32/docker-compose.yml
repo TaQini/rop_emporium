@@ -1,0 +1,9 @@
+version: '3'
+services:
+  badchars32:
+    image: taqini/badchars32
+    build: .
+    environment:
+       - FLAG=CTFq{flagtestyourflag}
+    ports: 
+     - "10015:9999"

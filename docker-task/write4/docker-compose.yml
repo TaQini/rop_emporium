@@ -1,0 +1,9 @@
+version: '3'
+services:
+  write4:
+    image: taqini/write4
+    build: .
+    environment:
+       - FLAG=CTFq{flagtestyourflag}
+    ports: 
+     - "10015:9999"

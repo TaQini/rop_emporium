@@ -1,0 +1,9 @@
+version: '3'
+services:
+  fluff32:
+    image: taqini/fluff32
+    build: .
+    environment:
+       - FLAG=CTFq{flagtestyourflag}
+    ports: 
+     - "10015:9999"

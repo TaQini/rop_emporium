@@ -1,0 +1,9 @@
+version: '3'
+services:
+  ret2csu:
+    image: taqini/ret2csu
+    build: .
+    environment:
+       - FLAG=CTFq{flagtestyourflag}
+    ports: 
+     - "10015:9999"
